@@ -1,15 +1,24 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import { GuiiAIDevToolsVitePlugin } from '@guiiai/core';
-import Inspect from 'vite-plugin-inspect';
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { DevTools } from '@guiiai/core'
+import Vue from '@vitejs/plugin-vue'
+import UnoCSS from 'unocss/vite'
+import VueRouter from 'unplugin-vue-router/vite'
+import { defineConfig } from 'vite'
 
-// https://vitejs.dev/config/
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
 export default defineConfig({
+  resolve: {
+    alias: {
+      '~/': `${join(__dirname, 'src')}/`,
+    },
+  },
   plugins: [
-    vue(),
-    GuiiAIDevToolsVitePlugin({
-      appendTo: 'main.js',
-    }),
-    Inspect(),
+    VueRouter(),
+    Vue(),
+    UnoCSS(),
+    DevTools(),
   ],
-});
+})
