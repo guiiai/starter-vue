@@ -9,11 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.33"
+    "@vueuse/core": "^11.1.0",
+    "unplugin-vue-router": "^0.10.8",
+    "vue": "^3.4.33",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@guiiai/core": "latest",
+    "@iconify/json": "^2.2.261",
+    "@unocss/reset": "^0.63.4",
     "@vitejs/plugin-vue": "^5.0.5",
+    "unocss": "^0.63.4",
     "vite": "^5.3.4",
     "vite-plugin-inspect": "^0.8.5"
   }
