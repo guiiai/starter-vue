@@ -15,7 +15,7 @@ importers:
         specifier: ^0.10.8
         version: 0.10.8(rollup@4.24.0)(vue-router@4.4.5(vue@3.5.12))(vue@3.5.12)
       vue:
-        specifier: ^3.4.33
+        specifier: ^3.5.12
         version: 3.5.12
       vue-router:
         specifier: ^4.4.5
@@ -25,22 +25,22 @@ importers:
         specifier: latest
         version: 0.7.2-beta1
       '@iconify/json':
-        specifier: ^2.2.261
-        version: 2.2.261
+        specifier: ^2.2.262
+        version: 2.2.262
       '@unocss/reset':
         specifier: ^0.63.4
         version: 0.63.4
       '@vitejs/plugin-vue':
-        specifier: ^5.0.5
+        specifier: ^5.1.4
         version: 5.1.4(vite@5.4.9)(vue@3.5.12)
       unocss:
         specifier: ^0.63.4
         version: 0.63.4(postcss@8.4.47)(rollup@4.24.0)(vite@5.4.9)
       vite:
-        specifier: ^5.3.4
+        specifier: ^5.4.9
         version: 5.4.9
       vite-plugin-inspect:
-        specifier: ^0.8.5
+        specifier: ^0.8.7
         version: 0.8.7(rollup@4.24.0)(vite@5.4.9)
 
 packages:
@@ -490,8 +490,8 @@ packages:
   '@guiiai/shared@0.7.2-beta1':
     resolution: {integrity: sha512-RKDEzgFsXzeT+HbQIG9f64lGe31+67hP1Uv9yAjdEii7ilPTOoPBTKxSKUyCQ4VjQSHeVkr2kzkBDPxOflYRKw==}
 
-  '@iconify/json@2.2.261':
-    resolution: {integrity: sha512-uUm8Svulz5aRRF0X+r2/UG5P0xcUCGOGVmAFJ/ZANx29wqE79PvGCYXHuznNC0h8+UW1fnvprj7FmgJELvMYZw==}
+  '@iconify/json@2.2.262':
+    resolution: {integrity: sha512-h7zMbLxsKohKXvf2Lpq6Xob7dxkqXxrUVR58ZvZBgCSrHcE69QJmcFG/KaAwM1eGuKToWvgPWeb1xE6zy7juqg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -1902,7 +1902,7 @@ snapshots:
 
   '@guiiai/shared@0.7.2-beta1': {}
 
-  '@iconify/json@2.2.261':
+  '@iconify/json@2.2.262':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.2
